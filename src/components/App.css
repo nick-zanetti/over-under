@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.App {
+  height: 100%;
+}
+
+body {
+  margin: 0;  
+  padding: 0;
+  height: 100vh;
+}
+#app {
+  height: 100%;
+}
+
+#wrapper {
+  height: 100%;
+  background-color: #2D3142;
+  color: #FAFAFF;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Contrail One', cursive;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading {
+  font-family: 'Contrail One', cursive;
+}
+
+#initial-num {
+  font-family: 'Contrail One', cursive;
+  font-size: 3rem;
+  margin: 0em;
+}
+
+#button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.button {
+  background-color: #EF8354;
+  border-radius: 15%;
+  border: none;
+  cursor: pointer;
+  font-family: 'Contrail One', cursive;
+  padding: 1rem;
+  box-shadow: 0 5px #FAFAFF;
+  color: #FAFAFF;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
+
